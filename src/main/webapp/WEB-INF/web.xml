@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>CurrencyCalculator</display-name>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+  
+  	<servlet>
+		<servlet-name>currenciessservlet</servlet-name>
+		<servlet-class>currenciessservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>currenciessservlet</servlet-name>
+		<url-pattern>/currenciessservlet/dashboard</url-pattern>
+		<url-pattern>/currenciessservlet/edit</url-pattern>
+		<url-pattern>/currenciessservlet/update</url-pattern>
+		<url-pattern>/currenciessservlet/delete</url-pattern>
+		<url-pattern>/currenciessservlet/insert</url-pattern>
+		<url-pattern>/currenciessservlet/calculator</url-pattern>
+		<url-pattern>/currenciessservlet/calculate</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
