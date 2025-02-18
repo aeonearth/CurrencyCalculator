@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Display Rate Page 2025</title>
+<title>Display Rate Page 2024</title>
 
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <link rel="stylesheet"
@@ -17,7 +17,7 @@
 <body>
 	<div class="row">
 		<div class="container">
-			<h3 class="text-center">List of Currency Rates 2025</h3>
+			<h3 class="text-center">List of Currency Rates 2024</h3>
 			<hr>
 
 			<table>
