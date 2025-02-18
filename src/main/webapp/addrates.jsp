@@ -7,7 +7,7 @@
 <title>Add Rates Page</title>
 </head>
 <body>
-
+   
 	<form action="AddCurrencyRates" method="Post">
 	
 	<table>

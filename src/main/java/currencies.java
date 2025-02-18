@@ -10,6 +10,7 @@ public class currencies {
 	protected Double to_currency_rates;
 	protected Date last_modified_date;
 	
+	
 	public currencies(Integer iD, String from_currency_name, Double from_currency_rates, String to_currency_name,
 			Double to_currency_rates, Date last_modified_date) {
 		super();

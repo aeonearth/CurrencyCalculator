@@ -5,3 +5,4 @@ public class Restaurant {
 	public String name;
   public char address;
 }
+
