@@ -155,7 +155,7 @@ public class currenciessservlet extends HttpServlet {
 			statement.setString(1, ID);
 			int i = statement.executeUpdate();
 		}
-		response.sendRedirect("http://localhost:8080/CurrencyCalculator/currenciessservlet/dashboard");
+		response.sendRedirect("http://localhost:8090/CurrencyCalculator/currenciessservlet/dashboard");
 	}
 
 	private void calculator(HttpServletRequest request, HttpServletResponse response)
@@ -209,7 +209,7 @@ public class currenciessservlet extends HttpServlet {
 		PrintWriter writer = response.getWriter();
 		writer.println("<h1>" + "Convert " + String.valueOf(calculateAmount) + " " + from_currency_name + " to " + to_currency_name + " (rate of " + cc + ")"
 				+ ".<br/>Converted Amount: " + String.valueOf(calculatedAmount) + "</h1>"
-				+ "<br/><a href=\"http://localhost:8080/CurrencyCalculator/currenciessservlet/dashboard\">Go back to dashboard</a>");
+				+ "<br/><a href=\"http://localhost:8090/CurrencyCalculator/currenciessservlet/dashboard\">Go back to dashboard</a>");
 		writer.close();
 		
 		//response.sendRedirect("http://localhost:8080/CurrencyCalculator/currenciessservlet/dashboard");
@@ -272,7 +272,7 @@ public class currenciessservlet extends HttpServlet {
 			int i = statement.executeUpdate();
 		} // Step 3: redirect back to UserServlet (note: remember to change the url to
 			// your project name)
-		response.sendRedirect("http://localhost:8080/CurrencyCalculator/currenciessservlet/dashboard");
+		response.sendRedirect("http://localhost:8090/CurrencyCalculator/currenciessservlet/dashboard");
 	}
 	/*
 	 * // method to trigger RegisterServlet private void

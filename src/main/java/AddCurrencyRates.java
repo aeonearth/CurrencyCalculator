@@ -71,7 +71,7 @@ public class AddCurrencyRates extends HttpServlet {
 		if (i > 0){
 			PrintWriter writer = response.getWriter();
 			writer.println("<h1>" + "You have successfully added a new currency rates!" + "</h1>" + 
-			"<br/><a href=\"http://localhost:8080/CurrencyCalculator/currenciessservlet/dashboard\">Go back to dashboard</a>");
+			"<br/><a href=\"http://localhost:8090/CurrencyCalculator/currenciessservlet/dashboard\">Go back to dashboard</a>");
 			writer.close();
 			}
 			} //Step 8: catch and print out any exception
