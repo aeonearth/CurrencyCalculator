@@ -17,7 +17,7 @@
 <body>
 	<div class="row">
 		<div class="container">
-			<h3 class="text-center">List of Currency Rates 2024</h3>
+			<h3 class="text-center">List of Currency Rates 2025</h3>
 			<hr>
 
 			<table>
